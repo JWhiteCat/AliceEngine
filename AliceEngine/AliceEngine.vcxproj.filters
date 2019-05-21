@@ -30,6 +30,7 @@
     <ClCompile Include="D3D12\Common\MathHelper.cpp">
       <Filter>D3D12\Common</Filter>
     </ClCompile>
+    <ClCompile Include="BoxApp.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="D3D12\Common\Camera.h">
@@ -59,5 +60,7 @@
     <ClInclude Include="D3D12\Common\UploadBuffer.h">
       <Filter>D3D12\Common</Filter>
     </ClInclude>
+    <ClInclude Include="CommonInclude.h" />
+    <ClInclude Include="AliceMath.h" />
   </ItemGroup>
 </Project>
